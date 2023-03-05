@@ -18,6 +18,6 @@ class Audi(Car):
 
 
 
-car = Audi();
-car.drive();
-car.get_brand();
+audi = Audi();
+audi.drive();
+audi.get_brand();
