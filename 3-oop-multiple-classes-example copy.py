@@ -50,8 +50,15 @@ class Audi(Car):
     def add_wheels(self):
         self.wheels.append(Wheel("Kansei Astro", "28/32", WheelPosition.FRONT_LEFT));
         self.wheels.append(Wheel("Kansei Astro", "28/32", WheelPosition.FRONT_RIGHT));
-        self.wheels.append(Wheel("Kansei Astro", "28/32", WheelPosition.BACK_LEFT));
-        self.wheels.append(Wheel("Kansei Astro", "28/32", WheelPosition.BACK_RIGHT));
+        self.wheels.append(Wheel("Kansei Astro", "30/32", WheelPosition.BACK_LEFT));
+        self.wheels.append(Wheel("Kansei Astro", "30/32", WheelPosition.BACK_RIGHT));
+
+    def get_wheel(self):
+        # TODO: implement a method, which gets the wheel based on the WheelPosition
+        # 
+        # example:
+        # get_wheel(WheelPosition.FRONT_RIGHT) should print the front right wheel 
+        print("implement me!")
 
 audi = Audi();
 audi.drive();
