@@ -7,4 +7,4 @@ from constants.Color import Color;
 car = Car();
 car.color = Color.BLUE;
 car.brand = Brand.AUDI;
-print(car);
+print(car); 
